@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x600/?delicious,food') no-repeat center center/cover;
+  height: 600px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+.hero h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+.hero .btn {
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
+h2 {
+  font-weight: 700;
+  color: #222;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #ffc107;
+}
+
+.card {
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+#about img {
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+
+form input, form textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #ffc107;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255,193,7,0.4);
+}
+
+button[type="submit"] {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #e0a800;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .social-icons a {
+  text-decoration: none;
+  color: #ffc107;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #fff;
+}
+🔥 Les changemen
+}
